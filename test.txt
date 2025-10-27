@@ -1,0 +1,4 @@
+[CATEGORY: test]
+Q: Test pytanie?
+A: Test odpowiedź.
+TAGS: test

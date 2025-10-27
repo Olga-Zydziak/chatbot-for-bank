@@ -1,0 +1,350 @@
+[CATEGORY: chargeback]
+Q: Co to jest chargeback?
+A: Chargeback to proces zwrotu środków dla posiadacza karty w przypadku sporu z transakcją kartową. Bank inicjuje postępowanie wobec organizacji płatniczej i sprzedawcy w celu odzyskania pieniędzy.
+ALIASES: Czym jest chargeback, Wyjaśnij chargeback, Reklamacja płatności kartą
+NEXT_STEPS:
+- Zgromadź dowody transakcji (potwierdzenie, faktury)
+- Otwórz aplikację i znajdź sporną transakcję
+- Kliknij 'Zgłoś spór / chargeback'
+TAGS: chargeback, reklamacja, karta, spór
+
+[CATEGORY: chargeback]
+Q: Jak zgłosić spór do transakcji kartą?
+A: Spór zgłosisz z poziomu aplikacji mobilnej. Wejdź w szczegóły spornej transakcji i wybierz opcję 'Zgłoś spór / chargeback'. System automatycznie rozpocznie proces reklamacji.
+ALIASES: Jak uruchomić chargeback, Reklamacja transakcji kartą, Zgłoszenie sporu
+NEXT_STEPS:
+- W aplikacji otwórz listę transakcji
+- Wybierz sporną transakcję
+- Kliknij 'Zgłoś spór / chargeback'
+- Uzupełnij formularz i dołącz dowody
+TAGS: chargeback, reklamacja, aplikacja
+
+[CATEGORY: chargeback]
+Q: Ile trwa proces chargeback?
+A: Standardowy proces chargeback trwa 30-90 dni, w zależności od złożoności sprawy i odpowiedzi sprzedawcy. Otrzymasz powiadomienie SMS i email o każdym etapie procesu.
+ALIASES: Czas trwania chargeback, Jak długo trwa reklamacja
+NEXT_STEPS:
+- Sprawdź status w aplikacji w sekcji 'Moje sprawy'
+- Oczekuj na powiadomienia SMS/email
+- W razie dodatkowych pytań kontakt z supportem
+TAGS: chargeback, czas, proces, SLA
+
+[CATEGORY: chargeback]
+Q: Jakie dokumenty potrzebne do chargeback?
+A: Do zgłoszenia chargeback potrzebne są: potwierdzenie transakcji, korespondencja ze sprzedawcą (jeśli była), zdjęcia produktu (jeśli dotyczy), i opis problemu. System umożliwia upload dokumentów bezpośrednio w aplikacji.
+ALIASES: Dokumenty do reklamacji, Co dołączyć do chargeback
+NEXT_STEPS:
+- Przygotuj potwierdzenie płatności
+- Zrób zrzuty ekranu korespondencji
+- Opisz szczegółowo problem
+- Upload w aplikacji
+TAGS: chargeback, dokumenty, dowody
+
+[CATEGORY: card]
+Q: Jak zmienić PIN do karty?
+A: PIN zmienisz w aplikacji mobilnej: przejdź do Karty → Ustawienia → Zmień PIN. Postępuj zgodnie z instrukcjami. W niektórych przypadkach zmianę trzeba dokończyć w bankomacie.
+ALIASES: Zmiana PIN, Reset PIN do karty, Nowy PIN
+NEXT_STEPS:
+- Aplikacja → Karty → Wybierz kartę
+- Kliknij 'Ustawienia' → 'Zmień PIN'
+- Wprowadź nowy PIN (4 cyfry)
+- Potwierdź w bankomacie (jeśli wymagane)
+TAGS: karta, PIN, bezpieczeństwo
+
+[CATEGORY: card]
+Q: Jak zastrzec zgubioną kartę?
+A: Wejdź w aplikacji w sekcję Karty i wybierz 'Zastrzeż kartę'. Karta zostanie natychmiast zablokowana i unieważniona. Możesz zamówić nową kartę w tym samym miejscu.
+ALIASES: Zgubiona karta, Skradziona karta, Zablokuj kartę, Utrata karty
+NEXT_STEPS:
+- Aplikacja → Karty → Wybierz kartę
+- Kliknij 'Zastrzeż kartę' → Potwierdź
+- Zamów nową kartę (opcjonalnie)
+- Nowa karta dotrze w 3-5 dni roboczych
+TAGS: karta, bezpieczeństwo, zastrzeżenie
+
+[CATEGORY: card]
+Q: Jak zamówić nową kartę?
+A: Nową kartę zamówisz w aplikacji: Karty → Zamów nową kartę. Wybierz typ karty (debetowa/kredytowa) i adres dostawy. Karta dotrze w 3-5 dni roboczych.
+ALIASES: Nowa karta, Zamówienie karty, Wydanie karty
+NEXT_STEPS:
+- Aplikacja → Karty → 'Zamów nową kartę'
+- Wybierz typ i wariant karty
+- Potwierdź adres dostawy
+- Oczekuj na przesyłkę (3-5 dni)
+TAGS: karta, zamówienie
+
+[CATEGORY: card]
+Q: Jak aktywować nową kartę?
+A: Nową kartę aktywujesz w aplikacji: Karty → Nowa karta → Aktywuj. Wprowadź 4 ostatnie cyfry numeru karty. Aktywacja jest natychmiastowa.
+ALIASES: Aktywacja karty, Uruchomienie karty
+NEXT_STEPS:
+- Odbierz kartę z przesyłki
+- Aplikacja → Karty → 'Aktywuj kartę'
+- Wprowadź 4 ostatnie cyfry numeru
+- Karta gotowa do użycia
+TAGS: karta, aktywacja
+
+[CATEGORY: card]
+Q: Jak ustawić limity na karcie?
+A: Limity ustawisz w aplikacji: Karty → Ustawienia → Limity. Możesz ustawić dzienny limit płatności, wypłat z bankomatów i płatności online.
+ALIASES: Limity kartowe, Ograniczenia karty, Dzienny limit
+NEXT_STEPS:
+- Aplikacja → Karty → Ustawienia → Limity
+- Wybierz typ limitu (płatności/wypłaty/online)
+- Ustaw kwotę
+- Zapisz zmiany
+TAGS: karta, limity, bezpieczeństwo
+
+[CATEGORY: card]
+Q: Co zrobić przy nieautoryzowanej transakcji?
+A: Jeśli nie rozpoznajesz transakcji na karcie, natychmiast zablokuj kartę w aplikacji (Karty → Zablokuj) i zgłoś nieautoryzowaną transakcję przez formularz w sekcji 'Bezpieczeństwo'.
+ALIASES: Nie rozpoznaję transakcji, Podejrzana płatność, Oszustwo kartą
+NEXT_STEPS:
+- Aplikacja → Karty → Zablokuj kartę (natychmiast!)
+- Bezpieczeństwo → 'Zgłoś nieautoryzowaną transakcję'
+- Wypełnij formularz z detalami
+- Oczekuj na kontakt z zespołu bezpieczeństwa
+TAGS: bezpieczeństwo, fraud, karta
+
+[CATEGORY: transfers]
+Q: Jak wykonać przelew krajowy?
+A: Przelewy krajowe wykonasz w sekcji Przelewy. Wybierz 'Przelew krajowy', wprowadź numer konta odbiorcy (26 cyfr) lub wybierz z listy zapisanych, kwotę i tytuł. Potwierdź kodem SMS lub biometrią.
+ALIASES: Przelew, Wysłanie pieniędzy, Transfer krajowy
+NEXT_STEPS:
+- Aplikacja → Przelewy → 'Nowy przelew'
+- Wybierz 'Przelew krajowy'
+- Wprowadź dane odbiorcy i kwotę
+- Potwierdź (SMS/biometria)
+TAGS: przelew, transfer, płatności
+
+[CATEGORY: transfers]
+Q: Jak wykonać przelew międzynarodowy?
+A: Przelewy międzynarodowe (SWIFT) wykonasz w Przelewy → Przelew zagraniczny. Potrzebujesz: IBAN odbiorcy, SWIFT/BIC banku, adres odbiorcy. Prowizja zależy od kraju i kwoty.
+ALIASES: Przelew zagraniczny, SWIFT, Transfer międzynarodowy
+NEXT_STEPS:
+- Aplikacja → Przelewy → 'Przelew zagraniczny'
+- Wprowadź IBAN i SWIFT/BIC
+- Podaj adres odbiorcy i kwotę
+- Sprawdź prowizję i potwierdź
+TAGS: przelew, międzynarodowy, SWIFT
+
+[CATEGORY: transfers]
+Q: Ile kosztuje przelew?
+A: Przelewy krajowe są darmowe (bez limitu kwoty). Przelewy SEPA (EUR) - 5 PLN. Przelewy SWIFT - od 20 PLN (zależy od kraju). Szczegółowy cennik w aplikacji: Profil → Cennik.
+ALIASES: Prowizje przelewy, Opłaty za transfer, Koszt przelewu
+NEXT_STEPS:
+- Sprawdź cennik w aplikacji (Profil → Cennik)
+- Przelewy krajowe: zawsze 0 PLN
+- SEPA: 5 PLN
+- SWIFT: indywidualnie
+TAGS: przelew, prowizje, koszty
+
+[CATEGORY: transfers]
+Q: Jak długo trwa przelew?
+A: Przelewy krajowe: natychmiastowe (Express Elixir) lub do 1 dnia roboczego. Przelewy SEPA: 1-2 dni robocze. Przelewy SWIFT: 3-5 dni roboczych.
+ALIASES: Czas przelewu, Jak szybko przelew, Kiedy dotrze przelew
+NEXT_STEPS:
+- Express Elixir (krajowy): kilka minut
+- Standardowy (krajowy): do końca dnia
+- SEPA: następny dzień roboczy
+- SWIFT: 3-5 dni roboczych
+TAGS: przelew, czas, SLA
+
+[CATEGORY: transfers]
+Q: Jak zapisać szablon przelewu?
+A: Po wykonaniu przelewu kliknij 'Zapisz jako szablon'. Nadaj nazwę (np. "Czynsz") i szablon pojawi się w Przelewy → Szablony. Możesz mieć do 50 szablonów.
+ALIASES: Szablon przelewu, Ulubiony odbiorca, Zapamiętaj przelew
+NEXT_STEPS:
+- Wykonaj przelew normalnie
+- Na podsumowaniu kliknij 'Zapisz jako szablon'
+- Nadaj nazwę
+- Szablon dostępny w Przelewy → Szablony
+TAGS: przelew, szablony
+
+[CATEGORY: account]
+Q: Jak założyć konto?
+A: Konto założysz online w 10 minut: pobierz aplikację, kliknij 'Załóż konto', przygotuj dowód osobisty, zrób selfie z dowodem. Weryfikacja trwa do 15 minut.
+ALIASES: Otwarcie konta, Nowe konto, Rejestracja
+NEXT_STEPS:
+- Pobierz aplikację (iOS/Android)
+- Kliknij 'Załóż konto'
+- Wypełnij formularz
+- Zweryfikuj tożsamość (selfie + dowód)
+- Oczekuj na aktywację (15 min)
+TAGS: konto, rejestracja
+
+[CATEGORY: account]
+Q: Jak zamknąć konto?
+A: Zamknięcie konta możliwe jest przez zgłoszenie w aplikacji (Profil → Ustawienia → Zamknij konto) lub kontakt z supportem. Przed zamknięciem rozlicz wszystkie zobowiązania i przelej środki.
+ALIASES: Zamknięcie konta, Rezygnacja z konta, Likwidacja konta
+NEXT_STEPS:
+- Rozlicz wszystkie zobowiązania (karty, pożyczki)
+- Przelej środki na inne konto
+- Aplikacja → Profil → 'Zamknij konto'
+- Potwierdź kodem SMS
+TAGS: konto, zamknięcie
+
+[CATEGORY: account]
+Q: Jak zmienić dane osobowe?
+A: Podstawowe dane (email, telefon, adres) zmienisz w Profil → Dane osobowe. Zmiana nazwiska lub nr dowodu wymaga wizyty w oddziale lub przesłania dokumentów przez aplikację.
+ALIASES: Aktualizacja danych, Zmiana adresu, Zmiana nazwiska
+NEXT_STEPS:
+- Aplikacja → Profil → Dane osobowe
+- Edytuj pole (email/telefon/adres)
+- Potwierdź kodem SMS
+- Zmiana nazwiska: prześlij dokumenty
+TAGS: konto, dane osobowe
+
+[CATEGORY: account]
+Q: Jak otrzymać zaświadczenie o koncie?
+A: Zaświadczenie wygenerujesz w aplikacji: Profil → Dokumenty → Zaświadczenia. Wybierz typ (np. "o posiadaniu konta", "o obrotach") i pobierz PDF. Ważność: 30 dni.
+ALIASES: Zaświadczenie bankowe, Potwierdzenie konta
+NEXT_STEPS:
+- Aplikacja → Profil → Dokumenty → Zaświadczenia
+- Wybierz typ zaświadczenia
+- Generuj PDF (natychmiastowe)
+- Pobierz lub wyślij emailem
+TAGS: konto, dokumenty, zaświadczenie
+
+[CATEGORY: app]
+Q: Nie pamiętam hasła do aplikacji
+A: Na ekranie logowania kliknij 'Nie pamiętam hasła'. Otrzymasz SMS z linkiem do resetu. Postępuj zgodnie z instrukcjami. Potrzebujesz dostępu do zarejestrowanego numeru telefonu.
+ALIASES: Reset hasła, Zapomniałem hasła, Odzyskanie hasła
+NEXT_STEPS:
+- Ekran logowania → 'Nie pamiętam hasła'
+- Wprowadź numer telefonu
+- Kliknij link w SMS
+- Ustaw nowe hasło
+TAGS: aplikacja, hasło, bezpieczeństwo
+
+[CATEGORY: app]
+Q: Jak włączyć logowanie biometryczne?
+A: W aplikacji przejdź do Profil → Bezpieczeństwo → Logowanie biometryczne. Włącz opcję i potwierdź odciskiem palca lub Face ID. Przy kolejnym logowaniu wystarczy biometria.
+ALIASES: Face ID, Touch ID, Odcisk palca, Logowanie twarzą
+NEXT_STEPS:
+- Aplikacja → Profil → Bezpieczeństwo
+- Włącz 'Logowanie biometryczne'
+- Zarejestruj odcisk/twarz (w ustawieniach telefonu)
+- Przetestuj logowanie
+TAGS: aplikacja, biometria, bezpieczeństwo
+
+[CATEGORY: app]
+Q: Aplikacja się zawiesza lub crashuje
+A: Spróbuj: 1) Wymuś zamknięcie aplikacji i uruchom ponownie, 2) Sprawdź aktualizacje w App Store/Google Play, 3) Zrestartuj telefon, 4) Jeśli problem się powtarza - napisz do supportu z modelem telefonu i wersją systemu.
+ALIASES: Błąd aplikacji, App nie działa, Problemy z aplikacją
+NEXT_STEPS:
+- Wymuś zamknięcie aplikacji
+- Sprawdź aktualizacje (App Store/Play)
+- Zrestartuj telefon
+- Support: Profil → Pomoc → 'Zgłoś problem'
+TAGS: aplikacja, błędy, troubleshooting
+
+[CATEGORY: app]
+Q: Jak wylogować się z aplikacji?
+A: Przejdź do Profil → Ustawienia → Wyloguj. Możesz też wylogować wszystkie urządzenia jednocześnie w Bezpieczeństwo → Aktywne sesje → Wyloguj wszystkie.
+ALIASES: Logout, Wylogowanie
+NEXT_STEPS:
+- Aplikacja → Profil → Ustawienia
+- Przewiń na dół → 'Wyloguj'
+- Potwierdź
+TAGS: aplikacja, bezpieczeństwo
+
+[CATEGORY: support]
+Q: Jak skontaktować się z konsultantem?
+A: Najszybsza ścieżka to czat w aplikacji (Profil → Pomoc → 'Połącz z konsultantem'). Dostępny 24/7. Możesz też zadzwonić: 800 123 456 (darmowy) lub napisać email: pomoc@bank.pl
+ALIASES: Kontakt z supportem, Rozmowa na czacie, Infolinia, Help desk
+NEXT_STEPS:
+- Aplikacja → Profil → Pomoc
+- Kliknij 'Połącz z konsultantem'
+- Opisz problem
+- Konsultant odpowie w ~2 min
+TAGS: support, kontakt, pomoc
+
+[CATEGORY: support]
+Q: Jakie są godziny pracy supportu?
+A: Czat w aplikacji: 24/7 (cały tydzień). Infolinia telefoniczna: pon-pt 8-20, sob 9-15. Email: odpowiedź do 24h (dni robocze). Pilne sprawy (kradzież karty) - zawsze 24/7.
+ALIASES: Godziny supportu, Kiedy support, Dostępność pomocy
+NEXT_STEPS:
+- Czat: zawsze dostępny (24/7)
+- Telefon: pon-pt 8-20, sob 9-15
+- Email: response do 24h
+- PILNE (karta): 24/7
+TAGS: support, godziny, SLA
+
+[CATEGORY: support]
+Q: Gdzie znajdę FAQ i pomoc?
+A: Centrum pomocy znajdziesz w aplikacji: Profil → Pomoc. Tam są: FAQ, instrukcje wideo, poradniki krok po kroku. Możesz też wyszukać hasło w search bar.
+ALIASES: Pomoc, Instrukcje, Poradniki, FAQ
+NEXT_STEPS:
+- Aplikacja → Profil → Pomoc
+- Przeglądaj kategorie lub użyj wyszukiwarki
+- Zobacz instrukcje wideo
+- Jeśli nie znalazłeś - czat z konsultantem
+TAGS: support, FAQ, pomoc
+
+[CATEGORY: settings]
+Q: Jak ustawić preferowaną walutę?
+A: W Profil → Preferencje ustaw preferowaną walutę wyświetlania. To nie zmienia waluty konta, tylko sposób wyświetlania sald w aplikacji (przelicznik według kursu).
+ALIASES: Ulubiona waluta, Zmiana waluty wyświetlania
+NEXT_STEPS:
+- Aplikacja → Profil → Preferencje
+- Wybierz 'Waluta wyświetlania'
+- Ustaw preferowaną (PLN/EUR/USD)
+- Zapisz zmiany
+TAGS: preferencje, waluta, ustawienia
+
+[CATEGORY: settings]
+Q: Jak włączyć powiadomienia push?
+A: Powiadomienia włączysz w Profil → Powiadomienia. Możesz wybrać o czym chcesz być informowany: transakcje, przelewy przychodzące, komunikaty od banku, promocje.
+ALIASES: Notyfikacje, Alerty, Powiadomienia mobilne
+NEXT_STEPS:
+- Aplikacja → Profil → Powiadomienia
+- Włącz/wyłącz kategorie
+- Transakcje: zawsze rekomendowane (bezpieczeństwo)
+- Zapisz preferencje
+TAGS: powiadomienia, ustawienia
+
+[CATEGORY: security]
+Q: Jak zgłosić phishing lub podejrzany email?
+A: Podejrzane emaile/SMS podszywające się pod bank prześlij na: phishing@bank.pl. NIE klikaj w linki. Bank nigdy nie prosi o hasło/PIN przez email lub SMS.
+ALIASES: Phishing, Spam, Podejrzany SMS, Oszustwo
+NEXT_STEPS:
+- NIE klikaj w żadne linki
+- Prześlij email/screenshot na: phishing@bank.pl
+- Ewentualnie zgłoś w aplikacji: Profil → Bezpieczeństwo
+- Zmień hasło jeśli podałeś dane
+TAGS: bezpieczeństwo, phishing, oszustwo
+
+[CATEGORY: security]
+Q: Jak zabezpieczyć konto?
+A: Najważniejsze: 1) Włącz logowanie biometryczne, 2) Ustaw silne hasło (min. 12 znaków), 3) Włącz powiadomienia o transakcjach, 4) Regularnie sprawdzaj 'Aktywne sesje', 5) Nigdy nie udostępniaj hasła/PIN.
+ALIASES: Bezpieczeństwo konta, Ochrona konta, Zabezpieczenia
+NEXT_STEPS:
+- Włącz biometrię (Profil → Bezpieczeństwo)
+- Ustaw silne hasło (zmień jeśli słabe)
+- Włącz powiadomienia o transakcjach
+- Monitoruj aktywne sesje co tydzień
+TAGS: bezpieczeństwo, ochrona
+
+[CATEGORY: loans]
+Q: Jak złożyć wniosek o pożyczkę?
+A: Wniosek o pożyczkę złożysz w aplikacji: Produkty → Pożyczki → 'Nowy wniosek'. Wypełnij formularz (dochody, cel pożyczki), wgraj dokumenty. Decyzja w 15 minut - 24h.
+ALIASES: Pożyczka, Kredyt, Wniosek kredytowy
+NEXT_STEPS:
+- Aplikacja → Produkty → Pożyczki
+- Kliknij 'Nowy wniosek'
+- Wypełnij formularz (kwota, cel, dochody)
+- Upload dokumentów (PIT/umowa o pracę)
+- Oczekuj na decyzję
+TAGS: pożyczka, kredyt, wniosek
+
+[CATEGORY: loans]
+Q: Jak sprawdzić harmonogram spłaty pożyczki?
+A: Harmonogram zobaczysz w Produkty → Pożyczki → Wybierz pożyczkę → 'Harmonogram spłat'. Możesz też pobrać PDF i eksportować do kalendarza.
+ALIASES: Raty pożyczki, Spłata kredytu, Kiedy rata
+NEXT_STEPS:
+- Aplikacja → Produkty → Pożyczki
+- Wybierz aktywną pożyczkę
+- Kliknij 'Harmonogram spłat'
+- Eksportuj PDF lub do kalendarza
+TAGS: pożyczka, harmonogram, raty
