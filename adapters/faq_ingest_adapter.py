@@ -1,62 +1,61 @@
-
+# adapters/faq_ingest_adapter.py
 from __future__ import annotations
-from typing import Iterable, Dict, Any, Tuple
-from pathlib import Path
-import time
 
-# Import the user's parser directly from their project path if needed.
-# For this standalone adapter, we expect to run from the repo root:
-#   python adapters/faq_ingest_adapter.py --faq data/banking_faq_30plus.txt
-try:
-    from chatbot_for_bank_main.tools.faq_generator.parser import FAQParser  # when installed as a package
-except Exception:
-    # Fallback to relative path import when running inside the repo folder
-    import sys
-    sys.path.append(str(Path(__file__).resolve().parents[1]))
-    from tools.faq_generator.parser import FAQParser  # type: ignore
+import time
+import re
+from pathlib import Path
+from typing import Iterable
 
 from graph_mem import GraphMem
 
-def _entry_to_text(entry: Dict[str, Any]) -> Tuple[str, str]:
-    """Return (id_text, blob_text) to store in GraphMem.
-    id_text is short for traceability, blob_text is the content used for retrieval.
+FAQ_ITEM_RE = re.compile(
+    r"""
+    ^\s*\[CATEGORY:\s*(?P<category>[^\]]+)\]\s*?\n
+    Q:\s*(?P<q>.*?)\n
+    A:\s*(?P<a>.*?)\n
+    ALIASES:\s*(?P<aliases>.*?)\n
+    (?:NEXT_STEPS:\s*(?P<next_steps>(?:-.*?\n)+))?
+    TAGS:\s*(?P<tags>.*?)(?:\n{2,}|\Z)
+    """,
+    re.IGNORECASE | re.DOTALL | re.VERBOSE,
+)
+
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s.strip())
+
+def parse_faq_blocks(text: str):
+    for m in FAQ_ITEM_RE.finditer(text):
+        yield {
+            "category": _norm(m.group("category")),
+            "q": _norm(m.group("q")),
+            "a": _norm(m.group("a")),
+            "aliases": [a.strip() for a in _norm(m.group("aliases")).split(",") if a.strip()],
+            "next_steps": [re.sub(r"^\s*-\s*", "", ln).strip()
+                           for ln in (m.group("next_steps") or "").splitlines() if ln.strip()],
+            "tags": [t.strip() for t in _norm(m.group("tags")).split(",") if t.strip()],
+        }
+
+def serialise_block(b: dict) -> str:
+    parts = [
+        f"[CATEGORY] {b['category']}",
+        f"Q: {b['q']}",
+        f"A: {b['a']}",
+        f"ALIASES: {', '.join(b['aliases'])}" if b['aliases'] else "ALIASES:",
+        "NEXT_STEPS:\n" + "\n".join(f"- {s}" for s in b['next_steps']) if b['next_steps'] else "NEXT_STEPS:",
+        f"TAGS: {', '.join(b['tags'])}" if b['tags'] else "TAGS:",
+    ]
+    return "\n".join(parts)
+
+def ingest_faq_to_graph(faq_path: str | Path, gm: GraphMem) -> int:
     """
-    cat = entry.get("category") or ""
-    q = entry.get("question") or ""
-    a = entry.get("answer") or ""
-    aliases = ", ".join(entry.get("aliases") or [])
-    next_steps = "\n".join(f"- {s}" for s in (entry.get("next_steps") or []))
-    tags = ", ".join(entry.get("tags") or [])
-
-    id_text = f"[{cat}] Q: {q}"
-    blob = "\n".join([
-        f"[CATEGORY] {cat}",
-        f"Q: {q}",
-        f"A: {a}",
-        (f"ALIASES: {aliases}" if aliases else ""),
-        (f"NEXT_STEPS:\n{next_steps}" if next_steps else ""),
-        (f"TAGS: {tags}" if tags else ""),
-    ])
-    blob = "\n".join([line for line in blob.splitlines() if line.strip()])
-    return id_text, blob
-
-def ingest_faq_to_graph(faq_path: str, gm: GraphMem) -> list[int]:
-    parser = FAQParser()
-    entries = parser.parse_file(Path(faq_path))
-    ids: list[int] = []
+    Parsuje plik FAQ i dodaje każdy rekord jako Fact do GraphMem.
+    Zwraca liczbę załadowanych faktów.
+    """
+    text = Path(faq_path).read_text(encoding="utf-8", errors="ignore")
+    count = 0
     now = time.time()
-    # Entries are objects (pydantic?) – normalize to dict
-    norm_entries = []
-    for e in entries:
-        if hasattr(e, "model_dump"):
-            norm_entries.append(e.model_dump())
-        elif isinstance(e, dict):
-            norm_entries.append(e)
-        else:
-            # fallback best-effort
-            norm_entries.append(e.__dict__)
-    for i, e in enumerate(norm_entries):
-        id_text, blob = _entry_to_text(e)
-        idx = gm.add(blob, ts=now + i)
-        ids.append(idx)
-    return ids
+    for block in parse_faq_blocks(text):
+        payload = serialise_block(block)
+        gm.add(payload, ts=now)
+        count += 1
+    return count
