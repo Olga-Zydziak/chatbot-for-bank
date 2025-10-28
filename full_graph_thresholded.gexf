@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-10-28">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="text" type="string" />
+      <attribute id="1" title="ts" type="double" />
+    </attributes>
+    <nodes>
+      <node id="0" label="[CATEGORY] chargeback">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] chargeback&#10;Q: &#10;A: &#10;ALIASES: Czym jest chargeback, Wyjaśnij chargeback, Reklamacja płatności kartą&#10;NEXT_STEPS:&#10;- Zgromadź dowody transakcji (potwierdzenie, faktury)&#10;- Otwórz aplikację i znajdź sporną transakcję&#10;- Kliknij 'Zgłoś spór / chargeback'&#10;TAGS: chargeback, reklamacja, karta, spór" />
+          <attvalue for="1" value="1761651584.9182634" />
+        </attvalues>
+      </node>
+      <node id="1" label="[CATEGORY] chargeback">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] chargeback&#10;Q: &#10;A: &#10;ALIASES: Jak uruchomić chargeback, Reklamacja transakcji kartą, Zgłoszenie sporu&#10;NEXT_STEPS:&#10;- W aplikacji otwórz listę transakcji&#10;- Wybierz sporną transakcję&#10;- Kliknij 'Zgłoś spór / chargeback'&#10;- Uzupełnij formularz i dołącz dowody&#10;TAGS: chargeback, reklamacja, aplikacja" />
+          <attvalue for="1" value="1761651585.9182634" />
+        </attvalues>
+      </node>
+      <node id="2" label="[CATEGORY] chargeback">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] chargeback&#10;Q: &#10;A: &#10;ALIASES: Czas trwania chargeback, Jak długo trwa reklamacja&#10;NEXT_STEPS:&#10;- Sprawdź status w aplikacji w sekcji 'Moje sprawy'&#10;- Oczekuj na powiadomienia SMS/email&#10;- W razie dodatkowych pytań kontakt z supportem&#10;TAGS: chargeback, czas, proces, SLA" />
+          <attvalue for="1" value="1761651586.9182634" />
+        </attvalues>
+      </node>
+      <node id="3" label="[CATEGORY] chargeback">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] chargeback&#10;Q: &#10;A: &#10;ALIASES: Dokumenty do reklamacji, Co dołączyć do chargeback&#10;NEXT_STEPS:&#10;- Przygotuj potwierdzenie płatności&#10;- Zrób zrzuty ekranu korespondencji&#10;- Opisz szczegółowo problem&#10;- Upload w aplikacji&#10;TAGS: chargeback, dokumenty, dowody" />
+          <attvalue for="1" value="1761651587.9182634" />
+        </attvalues>
+      </node>
+      <node id="4" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Zmiana PIN, Reset PIN do karty, Nowy PIN&#10;NEXT_STEPS:&#10;- Aplikacja → Karty → Wybierz kartę&#10;- Kliknij 'Ustawienia' → 'Zmień PIN'&#10;- Wprowadź nowy PIN (4 cyfry)&#10;- Potwierdź w bankomacie (jeśli wymagane)&#10;TAGS: karta, PIN, bezpieczeństwo" />
+          <attvalue for="1" value="1761651588.9182634" />
+        </attvalues>
+      </node>
+      <node id="5" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Zgubiona karta, Skradziona karta, Zablokuj kartę, Utrata karty&#10;NEXT_STEPS:&#10;- Aplikacja → Karty → Wybierz kartę&#10;- Kliknij 'Zastrzeż kartę' → Potwierdź&#10;- Zamów nową kartę (opcjonalnie)&#10;- Nowa karta dotrze w 3-5 dni roboczych&#10;TAGS: karta, bezpieczeństwo, zastrzeżenie" />
+          <attvalue for="1" value="1761651589.9182634" />
+        </attvalues>
+      </node>
+      <node id="6" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Nowa karta, Zamówienie karty, Wydanie karty&#10;NEXT_STEPS:&#10;- Aplikacja → Karty → 'Zamów nową kartę'&#10;- Wybierz typ i wariant karty&#10;- Potwierdź adres dostawy&#10;- Oczekuj na przesyłkę (3-5 dni)&#10;TAGS: karta, zamówienie" />
+          <attvalue for="1" value="1761651590.9182634" />
+        </attvalues>
+      </node>
+      <node id="7" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Aktywacja karty, Uruchomienie karty&#10;NEXT_STEPS:&#10;- Odbierz kartę z przesyłki&#10;- Aplikacja → Karty → 'Aktywuj kartę'&#10;- Wprowadź 4 ostatnie cyfry numeru&#10;- Karta gotowa do użycia&#10;TAGS: karta, aktywacja" />
+          <attvalue for="1" value="1761651591.9182634" />
+        </attvalues>
+      </node>
+      <node id="8" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Limity kartowe, Ograniczenia karty, Dzienny limit&#10;NEXT_STEPS:&#10;- Aplikacja → Karty → Ustawienia → Limity&#10;- Wybierz typ limitu (płatności/wypłaty/online)&#10;- Ustaw kwotę&#10;- Zapisz zmiany&#10;TAGS: karta, limity, bezpieczeństwo" />
+          <attvalue for="1" value="1761651592.9182634" />
+        </attvalues>
+      </node>
+      <node id="9" label="[CATEGORY] card">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] card&#10;Q: &#10;A: &#10;ALIASES: Nie rozpoznaję transakcji, Podejrzana płatność, Oszustwo kartą&#10;NEXT_STEPS:&#10;- Aplikacja → Karty → Zablokuj kartę (natychmiast!)&#10;- Bezpieczeństwo → 'Zgłoś nieautoryzowaną transakcję'&#10;- Wypełnij formularz z detalami&#10;- Oczekuj na kontakt z zespołu bezpieczeństwa&#10;TAGS: bezpieczeństwo, fraud, karta" />
+          <attvalue for="1" value="1761651593.9182634" />
+        </attvalues>
+      </node>
+      <node id="10" label="[CATEGORY] transfers">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] transfers&#10;Q: &#10;A: &#10;ALIASES: Przelew, Wysłanie pieniędzy, Transfer krajowy&#10;NEXT_STEPS:&#10;- Aplikacja → Przelewy → 'Nowy przelew'&#10;- Wybierz 'Przelew krajowy'&#10;- Wprowadź dane odbiorcy i kwotę&#10;- Potwierdź (SMS/biometria)&#10;TAGS: przelew, transfer, płatności" />
+          <attvalue for="1" value="1761651594.9182634" />
+        </attvalues>
+      </node>
+      <node id="11" label="[CATEGORY] transfers">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] transfers&#10;Q: &#10;A: &#10;ALIASES: Przelew zagraniczny, SWIFT, Transfer międzynarodowy&#10;NEXT_STEPS:&#10;- Aplikacja → Przelewy → 'Przelew zagraniczny'&#10;- Wprowadź IBAN i SWIFT/BIC&#10;- Podaj adres odbiorcy i kwotę&#10;- Sprawdź prowizję i potwierdź&#10;TAGS: przelew, międzynarodowy, SWIFT" />
+          <attvalue for="1" value="1761651595.9182634" />
+        </attvalues>
+      </node>
+      <node id="12" label="[CATEGORY] transfers">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] transfers&#10;Q: &#10;A: &#10;ALIASES: Prowizje przelewy, Opłaty za transfer, Koszt przelewu&#10;NEXT_STEPS:&#10;- Sprawdź cennik w aplikacji (Profil → Cennik)&#10;- Przelewy krajowe: zawsze 0 PLN&#10;- SEPA: 5 PLN&#10;- SWIFT: indywidualnie&#10;TAGS: przelew, prowizje, koszty" />
+          <attvalue for="1" value="1761651596.9182634" />
+        </attvalues>
+      </node>
+      <node id="13" label="[CATEGORY] transfers">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] transfers&#10;Q: &#10;A: &#10;ALIASES: Czas przelewu, Jak szybko przelew, Kiedy dotrze przelew&#10;NEXT_STEPS:&#10;- Express Elixir (krajowy): kilka minut&#10;- Standardowy (krajowy): do końca dnia&#10;- SEPA: następny dzień roboczy&#10;- SWIFT: 3-5 dni roboczych&#10;TAGS: przelew, czas, SLA" />
+          <attvalue for="1" value="1761651597.9182634" />
+        </attvalues>
+      </node>
+      <node id="14" label="[CATEGORY] transfers">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] transfers&#10;Q: &#10;A: &#10;ALIASES: Szablon przelewu, Ulubiony odbiorca, Zapamiętaj przelew&#10;NEXT_STEPS:&#10;- Wykonaj przelew normalnie&#10;- Na podsumowaniu kliknij 'Zapisz jako szablon'&#10;- Nadaj nazwę&#10;- Szablon dostępny w Przelewy → Szablony&#10;TAGS: przelew, szablony" />
+          <attvalue for="1" value="1761651598.9182634" />
+        </attvalues>
+      </node>
+      <node id="15" label="[CATEGORY] account">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] account&#10;Q: &#10;A: &#10;ALIASES: Otwarcie konta, Nowe konto, Rejestracja&#10;NEXT_STEPS:&#10;- Pobierz aplikację (iOS/Android)&#10;- Kliknij 'Załóż konto'&#10;- Wypełnij formularz&#10;- Zweryfikuj tożsamość (selfie + dowód)&#10;- Oczekuj na aktywację (15 min)&#10;TAGS: konto, rejestracja" />
+          <attvalue for="1" value="1761651599.9182634" />
+        </attvalues>
+      </node>
+      <node id="16" label="[CATEGORY] account">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] account&#10;Q: &#10;A: &#10;ALIASES: Zamknięcie konta, Rezygnacja z konta, Likwidacja konta&#10;NEXT_STEPS:&#10;- Rozlicz wszystkie zobowiązania (karty, pożyczki)&#10;- Przelej środki na inne konto&#10;- Aplikacja → Profil → 'Zamknij konto'&#10;- Potwierdź kodem SMS&#10;TAGS: konto, zamknięcie" />
+          <attvalue for="1" value="1761651600.9182634" />
+        </attvalues>
+      </node>
+      <node id="17" label="[CATEGORY] account">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] account&#10;Q: &#10;A: &#10;ALIASES: Aktualizacja danych, Zmiana adresu, Zmiana nazwiska&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Dane osobowe&#10;- Edytuj pole (email/telefon/adres)&#10;- Potwierdź kodem SMS&#10;- Zmiana nazwiska: prześlij dokumenty&#10;TAGS: konto, dane osobowe" />
+          <attvalue for="1" value="1761651601.9182634" />
+        </attvalues>
+      </node>
+      <node id="18" label="[CATEGORY] account">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] account&#10;Q: &#10;A: &#10;ALIASES: Zaświadczenie bankowe, Potwierdzenie konta&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Dokumenty → Zaświadczenia&#10;- Wybierz typ zaświadczenia&#10;- Generuj PDF (natychmiastowe)&#10;- Pobierz lub wyślij emailem&#10;TAGS: konto, dokumenty, zaświadczenie" />
+          <attvalue for="1" value="1761651602.9182634" />
+        </attvalues>
+      </node>
+      <node id="19" label="[CATEGORY] app">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] app&#10;Q: &#10;A: &#10;ALIASES: Reset hasła, Zapomniałem hasła, Odzyskanie hasła&#10;NEXT_STEPS:&#10;- Ekran logowania → 'Nie pamiętam hasła'&#10;- Wprowadź numer telefonu&#10;- Kliknij link w SMS&#10;- Ustaw nowe hasło&#10;TAGS: aplikacja, hasło, bezpieczeństwo" />
+          <attvalue for="1" value="1761651603.9182634" />
+        </attvalues>
+      </node>
+      <node id="20" label="[CATEGORY] app">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] app&#10;Q: &#10;A: &#10;ALIASES: Face ID, Touch ID, Odcisk palca, Logowanie twarzą&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Bezpieczeństwo&#10;- Włącz 'Logowanie biometryczne'&#10;- Zarejestruj odcisk/twarz (w ustawieniach telefonu)&#10;- Przetestuj logowanie&#10;TAGS: aplikacja, biometria, bezpieczeństwo" />
+          <attvalue for="1" value="1761651604.9182634" />
+        </attvalues>
+      </node>
+      <node id="21" label="[CATEGORY] app">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] app&#10;Q: &#10;A: &#10;ALIASES: Błąd aplikacji, App nie działa, Problemy z aplikacją&#10;NEXT_STEPS:&#10;- Wymuś zamknięcie aplikacji&#10;- Sprawdź aktualizacje (App Store/Play)&#10;- Zrestartuj telefon&#10;- Support: Profil → Pomoc → 'Zgłoś problem'&#10;TAGS: aplikacja, błędy, troubleshooting" />
+          <attvalue for="1" value="1761651605.9182634" />
+        </attvalues>
+      </node>
+      <node id="22" label="[CATEGORY] app">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] app&#10;Q: &#10;A: &#10;ALIASES: Logout, Wylogowanie&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Ustawienia&#10;- Przewiń na dół → 'Wyloguj'&#10;- Potwierdź&#10;TAGS: aplikacja, bezpieczeństwo" />
+          <attvalue for="1" value="1761651606.9182634" />
+        </attvalues>
+      </node>
+      <node id="23" label="[CATEGORY] support">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] support&#10;Q: &#10;A: &#10;ALIASES: Kontakt z supportem, Rozmowa na czacie, Infolinia, Help desk&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Pomoc&#10;- Kliknij 'Połącz z konsultantem'&#10;- Opisz problem&#10;- Konsultant odpowie w ~2 min&#10;TAGS: support, kontakt, pomoc" />
+          <attvalue for="1" value="1761651607.9182634" />
+        </attvalues>
+      </node>
+      <node id="24" label="[CATEGORY] support">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] support&#10;Q: &#10;A: &#10;ALIASES: Godziny supportu, Kiedy support, Dostępność pomocy&#10;NEXT_STEPS:&#10;- Czat: zawsze dostępny (24/7)&#10;- Telefon: pon-pt 8-20, sob 9-15&#10;- Email: response do 24h&#10;- PILNE (karta): 24/7&#10;TAGS: support, godziny, SLA" />
+          <attvalue for="1" value="1761651608.9182634" />
+        </attvalues>
+      </node>
+      <node id="25" label="[CATEGORY] support">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] support&#10;Q: &#10;A: &#10;ALIASES: Pomoc, Instrukcje, Poradniki, FAQ&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Pomoc&#10;- Przeglądaj kategorie lub użyj wyszukiwarki&#10;- Zobacz instrukcje wideo&#10;- Jeśli nie znalazłeś - czat z konsultantem&#10;TAGS: support, FAQ, pomoc" />
+          <attvalue for="1" value="1761651609.9182634" />
+        </attvalues>
+      </node>
+      <node id="26" label="[CATEGORY] settings">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] settings&#10;Q: &#10;A: &#10;ALIASES: Ulubiona waluta, Zmiana waluty wyświetlania&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Preferencje&#10;- Wybierz 'Waluta wyświetlania'&#10;- Ustaw preferowaną (PLN/EUR/USD)&#10;- Zapisz zmiany&#10;TAGS: preferencje, waluta, ustawienia" />
+          <attvalue for="1" value="1761651610.9182634" />
+        </attvalues>
+      </node>
+      <node id="27" label="[CATEGORY] settings">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] settings&#10;Q: &#10;A: &#10;ALIASES: Notyfikacje, Alerty, Powiadomienia mobilne&#10;NEXT_STEPS:&#10;- Aplikacja → Profil → Powiadomienia&#10;- Włącz/wyłącz kategorie&#10;- Transakcje: zawsze rekomendowane (bezpieczeństwo)&#10;- Zapisz preferencje&#10;TAGS: powiadomienia, ustawienia" />
+          <attvalue for="1" value="1761651611.9182634" />
+        </attvalues>
+      </node>
+      <node id="28" label="[CATEGORY] security">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] security&#10;Q: &#10;A: &#10;ALIASES: Phishing, Spam, Podejrzany SMS, Oszustwo&#10;NEXT_STEPS:&#10;- NIE klikaj w żadne linki&#10;- Prześlij email/screenshot na: phishing@bank.pl&#10;- Ewentualnie zgłoś w aplikacji: Profil → Bezpieczeństwo&#10;- Zmień hasło jeśli podałeś dane&#10;TAGS: bezpieczeństwo, phishing, oszustwo" />
+          <attvalue for="1" value="1761651612.9182634" />
+        </attvalues>
+      </node>
+      <node id="29" label="[CATEGORY] security">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] security&#10;Q: &#10;A: &#10;ALIASES: Bezpieczeństwo konta, Ochrona konta, Zabezpieczenia&#10;NEXT_STEPS:&#10;- Włącz biometrię (Profil → Bezpieczeństwo)&#10;- Ustaw silne hasło (zmień jeśli słabe)&#10;- Włącz powiadomienia o transakcjach&#10;- Monitoruj aktywne sesje co tydzień&#10;TAGS: bezpieczeństwo, ochrona" />
+          <attvalue for="1" value="1761651613.9182634" />
+        </attvalues>
+      </node>
+      <node id="30" label="[CATEGORY] loans">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] loans&#10;Q: &#10;A: &#10;ALIASES: Pożyczka, Kredyt, Wniosek kredytowy&#10;NEXT_STEPS:&#10;- Aplikacja → Produkty → Pożyczki&#10;- Kliknij 'Nowy wniosek'&#10;- Wypełnij formularz (kwota, cel, dochody)&#10;- Upload dokumentów (PIT/umowa o pracę)&#10;- Oczekuj na decyzję&#10;TAGS: pożyczka, kredyt, wniosek" />
+          <attvalue for="1" value="1761651614.9182634" />
+        </attvalues>
+      </node>
+      <node id="31" label="[CATEGORY] loans">
+        <attvalues>
+          <attvalue for="0" value="[CATEGORY] loans&#10;Q: &#10;A: &#10;ALIASES: Raty pożyczki, Spłata kredytu, Kiedy rata&#10;NEXT_STEPS:&#10;- Aplikacja → Produkty → Pożyczki&#10;- Wybierz aktywną pożyczkę&#10;- Kliknij 'Harmonogram spłat'&#10;- Eksportuj PDF lub do kalendarza&#10;TAGS: pożyczka, harmonogram, raty" />
+          <attvalue for="1" value="1761651615.9182634" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="0" id="0" weight="0.9074110388755798" />
+      <edge source="2" target="1" id="1" weight="0.8281319737434387" />
+      <edge source="2" target="0" id="2" weight="0.7866429686546326" />
+      <edge source="3" target="1" id="3" weight="0.8179627060890198" />
+      <edge source="3" target="2" id="4" weight="0.7736462950706482" />
+      <edge source="3" target="0" id="5" weight="0.7721142172813416" />
+      <edge source="4" target="1" id="6" weight="0.7454599738121033" />
+      <edge source="4" target="3" id="7" weight="0.7376280426979065" />
+      <edge source="4" target="2" id="8" weight="0.7230300307273865" />
+      <edge source="4" target="0" id="9" weight="0.7046528458595276" />
+      <edge source="5" target="4" id="10" weight="0.8340569138526917" />
+      <edge source="5" target="1" id="11" weight="0.7794963121414185" />
+      <edge source="5" target="0" id="12" weight="0.7565720081329346" />
+      <edge source="5" target="2" id="13" weight="0.7482985854148865" />
+      <edge source="5" target="3" id="14" weight="0.7359912991523743" />
+      <edge source="6" target="5" id="15" weight="0.8613579273223877" />
+      <edge source="6" target="4" id="16" weight="0.8035678863525391" />
+      <edge source="6" target="1" id="17" weight="0.7614729404449463" />
+      <edge source="6" target="3" id="18" weight="0.7194831371307373" />
+      <edge source="6" target="2" id="19" weight="0.7163605690002441" />
+      <edge source="7" target="5" id="20" weight="0.8464644551277161" />
+      <edge source="7" target="6" id="21" weight="0.8334163427352905" />
+      <edge source="7" target="4" id="22" weight="0.794025719165802" />
+      <edge source="7" target="3" id="23" weight="0.7519820332527161" />
+      <edge source="7" target="1" id="24" weight="0.7423879504203796" />
+      <edge source="8" target="6" id="25" weight="0.8351855874061584" />
+      <edge source="8" target="5" id="26" weight="0.8077579140663147" />
+      <edge source="8" target="4" id="27" weight="0.8073474168777466" />
+      <edge source="8" target="7" id="28" weight="0.805607259273529" />
+      <edge source="8" target="1" id="29" weight="0.7381288409233093" />
+      <edge source="9" target="7" id="30" weight="0.8571715354919434" />
+      <edge source="9" target="5" id="31" weight="0.8400837182998657" />
+      <edge source="9" target="8" id="32" weight="0.8237004280090332" />
+      <edge source="9" target="6" id="33" weight="0.8173052072525024" />
+      <edge source="9" target="4" id="34" weight="0.7995991110801697" />
+      <edge source="10" target="8" id="35" weight="0.8271908164024353" />
+      <edge source="10" target="9" id="36" weight="0.8066881895065308" />
+      <edge source="10" target="6" id="37" weight="0.797382652759552" />
+      <edge source="10" target="7" id="38" weight="0.794182300567627" />
+      <edge source="10" target="5" id="39" weight="0.7900099754333496" />
+      <edge source="11" target="10" id="40" weight="0.8879693150520325" />
+      <edge source="11" target="8" id="41" weight="0.7935940027236938" />
+      <edge source="11" target="9" id="42" weight="0.7928527593612671" />
+      <edge source="11" target="5" id="43" weight="0.7850160002708435" />
+      <edge source="11" target="6" id="44" weight="0.7821772694587708" />
+      <edge source="12" target="1" id="45" weight="0.7865281701087952" />
+      <edge source="12" target="10" id="46" weight="0.7861596941947937" />
+      <edge source="12" target="11" id="47" weight="0.781119167804718" />
+      <edge source="12" target="5" id="48" weight="0.7803390622138977" />
+      <edge source="12" target="9" id="49" weight="0.7743576765060425" />
+      <edge source="13" target="10" id="50" weight="0.8063451051712036" />
+      <edge source="13" target="1" id="51" weight="0.7899999022483826" />
+      <edge source="13" target="5" id="52" weight="0.7819430828094482" />
+      <edge source="13" target="12" id="53" weight="0.7804366946220398" />
+      <edge source="13" target="11" id="54" weight="0.775756299495697" />
+      <edge source="14" target="13" id="55" weight="0.7871732115745544" />
+      <edge source="14" target="12" id="56" weight="0.7797302007675171" />
+      <edge source="14" target="10" id="57" weight="0.7693763375282288" />
+      <edge source="14" target="11" id="58" weight="0.759154200553894" />
+      <edge source="14" target="1" id="59" weight="0.7503792643547058" />
+      <edge source="15" target="1" id="60" weight="0.7802984118461609" />
+      <edge source="15" target="9" id="61" weight="0.7732194662094116" />
+      <edge source="15" target="13" id="62" weight="0.770574688911438" />
+      <edge source="15" target="3" id="63" weight="0.7613569498062134" />
+      <edge source="15" target="12" id="64" weight="0.7532494068145752" />
+      <edge source="16" target="9" id="65" weight="0.8081935048103333" />
+      <edge source="16" target="7" id="66" weight="0.7914998531341553" />
+      <edge source="16" target="10" id="67" weight="0.7827513813972473" />
+      <edge source="16" target="11" id="68" weight="0.7817831039428711" />
+      <edge source="16" target="15" id="69" weight="0.7808110117912292" />
+      <edge source="17" target="7" id="70" weight="0.7893263697624207" />
+      <edge source="17" target="9" id="71" weight="0.7856929898262024" />
+      <edge source="17" target="16" id="72" weight="0.7743282318115234" />
+      <edge source="17" target="5" id="73" weight="0.7723455429077148" />
+      <edge source="17" target="4" id="74" weight="0.7632684707641602" />
+      <edge source="18" target="8" id="75" weight="0.816562831401825" />
+      <edge source="18" target="10" id="76" weight="0.8089748024940491" />
+      <edge source="18" target="9" id="77" weight="0.8063958883285522" />
+      <edge source="18" target="7" id="78" weight="0.7929186224937439" />
+      <edge source="18" target="16" id="79" weight="0.7813406586647034" />
+      <edge source="19" target="1" id="80" weight="0.7803870439529419" />
+      <edge source="19" target="15" id="81" weight="0.7770792841911316" />
+      <edge source="19" target="13" id="82" weight="0.7723070979118347" />
+      <edge source="19" target="12" id="83" weight="0.7706452012062073" />
+      <edge source="19" target="10" id="84" weight="0.767216682434082" />
+      <edge source="20" target="8" id="85" weight="0.7969250082969666" />
+      <edge source="20" target="4" id="86" weight="0.7924462556838989" />
+      <edge source="20" target="9" id="87" weight="0.7912442684173584" />
+      <edge source="20" target="19" id="88" weight="0.7911527752876282" />
+      <edge source="20" target="10" id="89" weight="0.7736850380897522" />
+      <edge source="21" target="9" id="90" weight="0.7948828935623169" />
+      <edge source="21" target="18" id="91" weight="0.7822169065475464" />
+      <edge source="21" target="12" id="92" weight="0.7766360640525818" />
+      <edge source="21" target="19" id="93" weight="0.7720618844032288" />
+      <edge source="21" target="3" id="94" weight="0.7687284350395203" />
+      <edge source="22" target="8" id="95" weight="0.8387778997421265" />
+      <edge source="22" target="20" id="96" weight="0.8173256516456604" />
+      <edge source="22" target="9" id="97" weight="0.8158618211746216" />
+      <edge source="22" target="10" id="98" weight="0.80354905128479" />
+      <edge source="22" target="18" id="99" weight="0.7974119186401367" />
+      <edge source="23" target="9" id="100" weight="0.8249012231826782" />
+      <edge source="23" target="1" id="101" weight="0.7961760759353638" />
+      <edge source="23" target="4" id="102" weight="0.7929145693778992" />
+      <edge source="23" target="5" id="103" weight="0.7897518873214722" />
+      <edge source="23" target="7" id="104" weight="0.7868731021881104" />
+      <edge source="24" target="13" id="105" weight="0.8022910356521606" />
+      <edge source="24" target="10" id="106" weight="0.7755980491638184" />
+      <edge source="24" target="19" id="107" weight="0.756005585193634" />
+      <edge source="24" target="11" id="108" weight="0.7513636350631714" />
+      <edge source="24" target="15" id="109" weight="0.7493029832839966" />
+      <edge source="25" target="23" id="110" weight="0.8296183943748474" />
+      <edge source="25" target="9" id="111" weight="0.8077417016029358" />
+      <edge source="25" target="7" id="112" weight="0.8041717410087585" />
+      <edge source="25" target="8" id="113" weight="0.7976610660552979" />
+      <edge source="25" target="21" id="114" weight="0.7919990420341492" />
+      <edge source="26" target="8" id="115" weight="0.8374476432800293" />
+      <edge source="26" target="20" id="116" weight="0.8096633553504944" />
+      <edge source="26" target="25" id="117" weight="0.8083152174949646" />
+      <edge source="26" target="22" id="118" weight="0.8072257041931152" />
+      <edge source="26" target="17" id="119" weight="0.7973113656044006" />
+      <edge source="27" target="22" id="120" weight="0.8422635197639465" />
+      <edge source="27" target="25" id="121" weight="0.8347929120063782" />
+      <edge source="27" target="8" id="122" weight="0.8317191004753113" />
+      <edge source="27" target="26" id="123" weight="0.8301496505737305" />
+      <edge source="27" target="9" id="124" weight="0.8162826299667358" />
+      <edge source="28" target="9" id="125" weight="0.7910727858543396" />
+      <edge source="28" target="20" id="126" weight="0.7837468981742859" />
+      <edge source="28" target="12" id="127" weight="0.7822360992431641" />
+      <edge source="28" target="13" id="128" weight="0.780709445476532" />
+      <edge source="28" target="5" id="129" weight="0.7778998613357544" />
+      <edge source="29" target="20" id="130" weight="0.7929437756538391" />
+      <edge source="29" target="27" id="131" weight="0.7854112386703491" />
+      <edge source="29" target="12" id="132" weight="0.7830234169960022" />
+      <edge source="29" target="10" id="133" weight="0.7759196162223816" />
+      <edge source="29" target="16" id="134" weight="0.7736881971359253" />
+      <edge source="30" target="9" id="135" weight="0.8194966912269592" />
+      <edge source="30" target="23" id="136" weight="0.8023576140403748" />
+      <edge source="30" target="22" id="137" weight="0.8014405965805054" />
+      <edge source="30" target="10" id="138" weight="0.7887150645256042" />
+      <edge source="30" target="19" id="139" weight="0.787389874458313" />
+      <edge source="31" target="30" id="140" weight="0.8577807545661926" />
+      <edge source="31" target="25" id="141" weight="0.8197526335716248" />
+      <edge source="31" target="9" id="142" weight="0.8136130571365356" />
+      <edge source="31" target="4" id="143" weight="0.8030358552932739" />
+      <edge source="31" target="26" id="144" weight="0.8024376630783081" />
+    </edges>
+  </graph>
+</gexf>

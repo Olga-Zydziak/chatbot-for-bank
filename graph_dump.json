@@ -1,0 +1,1071 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "ts": 1761603362.0108147,
+      "text": "[CATEGORY] chargeback\nQ: \nA: \nALIASES: Czym jest chargeback, Wyjaśnij chargeback, Reklamacja płatności kartą\nNEXT_STEPS:\n- Zgromadź dowody transakcji (potwierdzenie, faktury)\n- Otwórz aplikację i znajdź sporną transakcję\n- Kliknij 'Zgłoś spór / chargeback'\nTAGS: chargeback, reklamacja, karta, spór"
+    },
+    {
+      "id": 1,
+      "ts": 1761603363.0108147,
+      "text": "[CATEGORY] chargeback\nQ: \nA: \nALIASES: Jak uruchomić chargeback, Reklamacja transakcji kartą, Zgłoszenie sporu\nNEXT_STEPS:\n- W aplikacji otwórz listę transakcji\n- Wybierz sporną transakcję\n- Kliknij 'Zgłoś spór / chargeback'\n- Uzupełnij formularz i dołącz dowody\nTAGS: chargeback, reklamacja, aplikacja"
+    },
+    {
+      "id": 2,
+      "ts": 1761603364.0108147,
+      "text": "[CATEGORY] chargeback\nQ: \nA: \nALIASES: Czas trwania chargeback, Jak długo trwa reklamacja\nNEXT_STEPS:\n- Sprawdź status w aplikacji w sekcji 'Moje sprawy'\n- Oczekuj na powiadomienia SMS/email\n- W razie dodatkowych pytań kontakt z supportem\nTAGS: chargeback, czas, proces, SLA"
+    },
+    {
+      "id": 3,
+      "ts": 1761603365.0108147,
+      "text": "[CATEGORY] chargeback\nQ: \nA: \nALIASES: Dokumenty do reklamacji, Co dołączyć do chargeback\nNEXT_STEPS:\n- Przygotuj potwierdzenie płatności\n- Zrób zrzuty ekranu korespondencji\n- Opisz szczegółowo problem\n- Upload w aplikacji\nTAGS: chargeback, dokumenty, dowody"
+    },
+    {
+      "id": 4,
+      "ts": 1761603366.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Zmiana PIN, Reset PIN do karty, Nowy PIN\nNEXT_STEPS:\n- Aplikacja → Karty → Wybierz kartę\n- Kliknij 'Ustawienia' → 'Zmień PIN'\n- Wprowadź nowy PIN (4 cyfry)\n- Potwierdź w bankomacie (jeśli wymagane)\nTAGS: karta, PIN, bezpieczeństwo"
+    },
+    {
+      "id": 5,
+      "ts": 1761603367.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Zgubiona karta, Skradziona karta, Zablokuj kartę, Utrata karty\nNEXT_STEPS:\n- Aplikacja → Karty → Wybierz kartę\n- Kliknij 'Zastrzeż kartę' → Potwierdź\n- Zamów nową kartę (opcjonalnie)\n- Nowa karta dotrze w 3-5 dni roboczych\nTAGS: karta, bezpieczeństwo, zastrzeżenie"
+    },
+    {
+      "id": 6,
+      "ts": 1761603368.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Nowa karta, Zamówienie karty, Wydanie karty\nNEXT_STEPS:\n- Aplikacja → Karty → 'Zamów nową kartę'\n- Wybierz typ i wariant karty\n- Potwierdź adres dostawy\n- Oczekuj na przesyłkę (3-5 dni)\nTAGS: karta, zamówienie"
+    },
+    {
+      "id": 7,
+      "ts": 1761603369.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Aktywacja karty, Uruchomienie karty\nNEXT_STEPS:\n- Odbierz kartę z przesyłki\n- Aplikacja → Karty → 'Aktywuj kartę'\n- Wprowadź 4 ostatnie cyfry numeru\n- Karta gotowa do użycia\nTAGS: karta, aktywacja"
+    },
+    {
+      "id": 8,
+      "ts": 1761603370.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Limity kartowe, Ograniczenia karty, Dzienny limit\nNEXT_STEPS:\n- Aplikacja → Karty → Ustawienia → Limity\n- Wybierz typ limitu (płatności/wypłaty/online)\n- Ustaw kwotę\n- Zapisz zmiany\nTAGS: karta, limity, bezpieczeństwo"
+    },
+    {
+      "id": 9,
+      "ts": 1761603371.0108147,
+      "text": "[CATEGORY] card\nQ: \nA: \nALIASES: Nie rozpoznaję transakcji, Podejrzana płatność, Oszustwo kartą\nNEXT_STEPS:\n- Aplikacja → Karty → Zablokuj kartę (natychmiast!)\n- Bezpieczeństwo → 'Zgłoś nieautoryzowaną transakcję'\n- Wypełnij formularz z detalami\n- Oczekuj na kontakt z zespołu bezpieczeństwa\nTAGS: bezpieczeństwo, fraud, karta"
+    },
+    {
+      "id": 10,
+      "ts": 1761603372.0108147,
+      "text": "[CATEGORY] transfers\nQ: \nA: \nALIASES: Przelew, Wysłanie pieniędzy, Transfer krajowy\nNEXT_STEPS:\n- Aplikacja → Przelewy → 'Nowy przelew'\n- Wybierz 'Przelew krajowy'\n- Wprowadź dane odbiorcy i kwotę\n- Potwierdź (SMS/biometria)\nTAGS: przelew, transfer, płatności"
+    },
+    {
+      "id": 11,
+      "ts": 1761603373.0108147,
+      "text": "[CATEGORY] transfers\nQ: \nA: \nALIASES: Przelew zagraniczny, SWIFT, Transfer międzynarodowy\nNEXT_STEPS:\n- Aplikacja → Przelewy → 'Przelew zagraniczny'\n- Wprowadź IBAN i SWIFT/BIC\n- Podaj adres odbiorcy i kwotę\n- Sprawdź prowizję i potwierdź\nTAGS: przelew, międzynarodowy, SWIFT"
+    },
+    {
+      "id": 12,
+      "ts": 1761603374.0108147,
+      "text": "[CATEGORY] transfers\nQ: \nA: \nALIASES: Prowizje przelewy, Opłaty za transfer, Koszt przelewu\nNEXT_STEPS:\n- Sprawdź cennik w aplikacji (Profil → Cennik)\n- Przelewy krajowe: zawsze 0 PLN\n- SEPA: 5 PLN\n- SWIFT: indywidualnie\nTAGS: przelew, prowizje, koszty"
+    },
+    {
+      "id": 13,
+      "ts": 1761603375.0108147,
+      "text": "[CATEGORY] transfers\nQ: \nA: \nALIASES: Czas przelewu, Jak szybko przelew, Kiedy dotrze przelew\nNEXT_STEPS:\n- Express Elixir (krajowy): kilka minut\n- Standardowy (krajowy): do końca dnia\n- SEPA: następny dzień roboczy\n- SWIFT: 3-5 dni roboczych\nTAGS: przelew, czas, SLA"
+    },
+    {
+      "id": 14,
+      "ts": 1761603376.0108147,
+      "text": "[CATEGORY] transfers\nQ: \nA: \nALIASES: Szablon przelewu, Ulubiony odbiorca, Zapamiętaj przelew\nNEXT_STEPS:\n- Wykonaj przelew normalnie\n- Na podsumowaniu kliknij 'Zapisz jako szablon'\n- Nadaj nazwę\n- Szablon dostępny w Przelewy → Szablony\nTAGS: przelew, szablony"
+    },
+    {
+      "id": 15,
+      "ts": 1761603377.0108147,
+      "text": "[CATEGORY] account\nQ: \nA: \nALIASES: Otwarcie konta, Nowe konto, Rejestracja\nNEXT_STEPS:\n- Pobierz aplikację (iOS/Android)\n- Kliknij 'Załóż konto'\n- Wypełnij formularz\n- Zweryfikuj tożsamość (selfie + dowód)\n- Oczekuj na aktywację (15 min)\nTAGS: konto, rejestracja"
+    },
+    {
+      "id": 16,
+      "ts": 1761603378.0108147,
+      "text": "[CATEGORY] account\nQ: \nA: \nALIASES: Zamknięcie konta, Rezygnacja z konta, Likwidacja konta\nNEXT_STEPS:\n- Rozlicz wszystkie zobowiązania (karty, pożyczki)\n- Przelej środki na inne konto\n- Aplikacja → Profil → 'Zamknij konto'\n- Potwierdź kodem SMS\nTAGS: konto, zamknięcie"
+    },
+    {
+      "id": 17,
+      "ts": 1761603379.0108147,
+      "text": "[CATEGORY] account\nQ: \nA: \nALIASES: Aktualizacja danych, Zmiana adresu, Zmiana nazwiska\nNEXT_STEPS:\n- Aplikacja → Profil → Dane osobowe\n- Edytuj pole (email/telefon/adres)\n- Potwierdź kodem SMS\n- Zmiana nazwiska: prześlij dokumenty\nTAGS: konto, dane osobowe"
+    },
+    {
+      "id": 18,
+      "ts": 1761603380.0108147,
+      "text": "[CATEGORY] account\nQ: \nA: \nALIASES: Zaświadczenie bankowe, Potwierdzenie konta\nNEXT_STEPS:\n- Aplikacja → Profil → Dokumenty → Zaświadczenia\n- Wybierz typ zaświadczenia\n- Generuj PDF (natychmiastowe)\n- Pobierz lub wyślij emailem\nTAGS: konto, dokumenty, zaświadczenie"
+    },
+    {
+      "id": 19,
+      "ts": 1761603381.0108147,
+      "text": "[CATEGORY] app\nQ: \nA: \nALIASES: Reset hasła, Zapomniałem hasła, Odzyskanie hasła\nNEXT_STEPS:\n- Ekran logowania → 'Nie pamiętam hasła'\n- Wprowadź numer telefonu\n- Kliknij link w SMS\n- Ustaw nowe hasło\nTAGS: aplikacja, hasło, bezpieczeństwo"
+    },
+    {
+      "id": 20,
+      "ts": 1761603382.0108147,
+      "text": "[CATEGORY] app\nQ: \nA: \nALIASES: Face ID, Touch ID, Odcisk palca, Logowanie twarzą\nNEXT_STEPS:\n- Aplikacja → Profil → Bezpieczeństwo\n- Włącz 'Logowanie biometryczne'\n- Zarejestruj odcisk/twarz (w ustawieniach telefonu)\n- Przetestuj logowanie\nTAGS: aplikacja, biometria, bezpieczeństwo"
+    },
+    {
+      "id": 21,
+      "ts": 1761603383.0108147,
+      "text": "[CATEGORY] app\nQ: \nA: \nALIASES: Błąd aplikacji, App nie działa, Problemy z aplikacją\nNEXT_STEPS:\n- Wymuś zamknięcie aplikacji\n- Sprawdź aktualizacje (App Store/Play)\n- Zrestartuj telefon\n- Support: Profil → Pomoc → 'Zgłoś problem'\nTAGS: aplikacja, błędy, troubleshooting"
+    },
+    {
+      "id": 22,
+      "ts": 1761603384.0108147,
+      "text": "[CATEGORY] app\nQ: \nA: \nALIASES: Logout, Wylogowanie\nNEXT_STEPS:\n- Aplikacja → Profil → Ustawienia\n- Przewiń na dół → 'Wyloguj'\n- Potwierdź\nTAGS: aplikacja, bezpieczeństwo"
+    },
+    {
+      "id": 23,
+      "ts": 1761603385.0108147,
+      "text": "[CATEGORY] support\nQ: \nA: \nALIASES: Kontakt z supportem, Rozmowa na czacie, Infolinia, Help desk\nNEXT_STEPS:\n- Aplikacja → Profil → Pomoc\n- Kliknij 'Połącz z konsultantem'\n- Opisz problem\n- Konsultant odpowie w ~2 min\nTAGS: support, kontakt, pomoc"
+    },
+    {
+      "id": 24,
+      "ts": 1761603386.0108147,
+      "text": "[CATEGORY] support\nQ: \nA: \nALIASES: Godziny supportu, Kiedy support, Dostępność pomocy\nNEXT_STEPS:\n- Czat: zawsze dostępny (24/7)\n- Telefon: pon-pt 8-20, sob 9-15\n- Email: response do 24h\n- PILNE (karta): 24/7\nTAGS: support, godziny, SLA"
+    },
+    {
+      "id": 25,
+      "ts": 1761603387.0108147,
+      "text": "[CATEGORY] support\nQ: \nA: \nALIASES: Pomoc, Instrukcje, Poradniki, FAQ\nNEXT_STEPS:\n- Aplikacja → Profil → Pomoc\n- Przeglądaj kategorie lub użyj wyszukiwarki\n- Zobacz instrukcje wideo\n- Jeśli nie znalazłeś - czat z konsultantem\nTAGS: support, FAQ, pomoc"
+    },
+    {
+      "id": 26,
+      "ts": 1761603388.0108147,
+      "text": "[CATEGORY] settings\nQ: \nA: \nALIASES: Ulubiona waluta, Zmiana waluty wyświetlania\nNEXT_STEPS:\n- Aplikacja → Profil → Preferencje\n- Wybierz 'Waluta wyświetlania'\n- Ustaw preferowaną (PLN/EUR/USD)\n- Zapisz zmiany\nTAGS: preferencje, waluta, ustawienia"
+    },
+    {
+      "id": 27,
+      "ts": 1761603389.0108147,
+      "text": "[CATEGORY] settings\nQ: \nA: \nALIASES: Notyfikacje, Alerty, Powiadomienia mobilne\nNEXT_STEPS:\n- Aplikacja → Profil → Powiadomienia\n- Włącz/wyłącz kategorie\n- Transakcje: zawsze rekomendowane (bezpieczeństwo)\n- Zapisz preferencje\nTAGS: powiadomienia, ustawienia"
+    },
+    {
+      "id": 28,
+      "ts": 1761603390.0108147,
+      "text": "[CATEGORY] security\nQ: \nA: \nALIASES: Phishing, Spam, Podejrzany SMS, Oszustwo\nNEXT_STEPS:\n- NIE klikaj w żadne linki\n- Prześlij email/screenshot na: phishing@bank.pl\n- Ewentualnie zgłoś w aplikacji: Profil → Bezpieczeństwo\n- Zmień hasło jeśli podałeś dane\nTAGS: bezpieczeństwo, phishing, oszustwo"
+    },
+    {
+      "id": 29,
+      "ts": 1761603391.0108147,
+      "text": "[CATEGORY] security\nQ: \nA: \nALIASES: Bezpieczeństwo konta, Ochrona konta, Zabezpieczenia\nNEXT_STEPS:\n- Włącz biometrię (Profil → Bezpieczeństwo)\n- Ustaw silne hasło (zmień jeśli słabe)\n- Włącz powiadomienia o transakcjach\n- Monitoruj aktywne sesje co tydzień\nTAGS: bezpieczeństwo, ochrona"
+    },
+    {
+      "id": 30,
+      "ts": 1761603392.0108147,
+      "text": "[CATEGORY] loans\nQ: \nA: \nALIASES: Pożyczka, Kredyt, Wniosek kredytowy\nNEXT_STEPS:\n- Aplikacja → Produkty → Pożyczki\n- Kliknij 'Nowy wniosek'\n- Wypełnij formularz (kwota, cel, dochody)\n- Upload dokumentów (PIT/umowa o pracę)\n- Oczekuj na decyzję\nTAGS: pożyczka, kredyt, wniosek"
+    },
+    {
+      "id": 31,
+      "ts": 1761603393.0108147,
+      "text": "[CATEGORY] loans\nQ: \nA: \nALIASES: Raty pożyczki, Spłata kredytu, Kiedy rata\nNEXT_STEPS:\n- Aplikacja → Produkty → Pożyczki\n- Wybierz aktywną pożyczkę\n- Kliknij 'Harmonogram spłat'\n- Eksportuj PDF lub do kalendarza\nTAGS: pożyczka, harmonogram, raty"
+    },
+    {
+      "id": 32,
+      "ts": 1761603366.9849946,
+      "text": "USER: Jak zgłosić spór do transakcji kartą?"
+    },
+    {
+      "id": 33,
+      "ts": 1761603366.9849946,
+      "text": "ASSISTANT: ALIASES: Jak uruchomić chargeback, Reklamacja transakcji kartą, Zgłoszenie sporu"
+    },
+    {
+      "id": 34,
+      "ts": 1761603366.9889224,
+      "text": "USER: Jakie dokumenty potrzebne do chargeback?"
+    },
+    {
+      "id": 35,
+      "ts": 1761603366.9889224,
+      "text": "ASSISTANT: ALIASES: Dokumenty do reklamacji, Co dołączyć do chargeback"
+    },
+    {
+      "id": 36,
+      "ts": 1761603366.9915726,
+      "text": "USER: Czy mogę zmienić limit transakcji?"
+    },
+    {
+      "id": 37,
+      "ts": 1761603366.9915726,
+      "text": "ASSISTANT: ALIASES: Zaświadczenie bankowe, Potwierdzenie konta"
+    }
+  ],
+  "edges": [
+    {
+      "src": 1,
+      "dst": 0,
+      "w": 0.9074110388755798
+    },
+    {
+      "src": 2,
+      "dst": 1,
+      "w": 0.8281319737434387
+    },
+    {
+      "src": 2,
+      "dst": 0,
+      "w": 0.7866429686546326
+    },
+    {
+      "src": 3,
+      "dst": 1,
+      "w": 0.8179627060890198
+    },
+    {
+      "src": 3,
+      "dst": 2,
+      "w": 0.7736462950706482
+    },
+    {
+      "src": 3,
+      "dst": 0,
+      "w": 0.7721142172813416
+    },
+    {
+      "src": 4,
+      "dst": 1,
+      "w": 0.7454599738121033
+    },
+    {
+      "src": 4,
+      "dst": 3,
+      "w": 0.7376280426979065
+    },
+    {
+      "src": 4,
+      "dst": 2,
+      "w": 0.7230300307273865
+    },
+    {
+      "src": 4,
+      "dst": 0,
+      "w": 0.7046528458595276
+    },
+    {
+      "src": 5,
+      "dst": 4,
+      "w": 0.8340569138526917
+    },
+    {
+      "src": 5,
+      "dst": 1,
+      "w": 0.7794963121414185
+    },
+    {
+      "src": 5,
+      "dst": 0,
+      "w": 0.7565720081329346
+    },
+    {
+      "src": 5,
+      "dst": 2,
+      "w": 0.7482985854148865
+    },
+    {
+      "src": 5,
+      "dst": 3,
+      "w": 0.7359912991523743
+    },
+    {
+      "src": 6,
+      "dst": 5,
+      "w": 0.8613579273223877
+    },
+    {
+      "src": 6,
+      "dst": 4,
+      "w": 0.8035678863525391
+    },
+    {
+      "src": 6,
+      "dst": 1,
+      "w": 0.7614729404449463
+    },
+    {
+      "src": 6,
+      "dst": 3,
+      "w": 0.7194831371307373
+    },
+    {
+      "src": 6,
+      "dst": 2,
+      "w": 0.7163605690002441
+    },
+    {
+      "src": 7,
+      "dst": 5,
+      "w": 0.8464644551277161
+    },
+    {
+      "src": 7,
+      "dst": 6,
+      "w": 0.8334163427352905
+    },
+    {
+      "src": 7,
+      "dst": 4,
+      "w": 0.794025719165802
+    },
+    {
+      "src": 7,
+      "dst": 3,
+      "w": 0.7519820332527161
+    },
+    {
+      "src": 7,
+      "dst": 1,
+      "w": 0.7423879504203796
+    },
+    {
+      "src": 8,
+      "dst": 6,
+      "w": 0.8351855874061584
+    },
+    {
+      "src": 8,
+      "dst": 5,
+      "w": 0.8077579140663147
+    },
+    {
+      "src": 8,
+      "dst": 4,
+      "w": 0.8073474168777466
+    },
+    {
+      "src": 8,
+      "dst": 7,
+      "w": 0.805607259273529
+    },
+    {
+      "src": 8,
+      "dst": 1,
+      "w": 0.7381288409233093
+    },
+    {
+      "src": 9,
+      "dst": 7,
+      "w": 0.8571715354919434
+    },
+    {
+      "src": 9,
+      "dst": 5,
+      "w": 0.8400837182998657
+    },
+    {
+      "src": 9,
+      "dst": 8,
+      "w": 0.8237004280090332
+    },
+    {
+      "src": 9,
+      "dst": 6,
+      "w": 0.8173052072525024
+    },
+    {
+      "src": 9,
+      "dst": 4,
+      "w": 0.7995991110801697
+    },
+    {
+      "src": 10,
+      "dst": 8,
+      "w": 0.8271908164024353
+    },
+    {
+      "src": 10,
+      "dst": 9,
+      "w": 0.8066881895065308
+    },
+    {
+      "src": 10,
+      "dst": 6,
+      "w": 0.797382652759552
+    },
+    {
+      "src": 10,
+      "dst": 7,
+      "w": 0.794182300567627
+    },
+    {
+      "src": 10,
+      "dst": 5,
+      "w": 0.7900099754333496
+    },
+    {
+      "src": 11,
+      "dst": 10,
+      "w": 0.8879693150520325
+    },
+    {
+      "src": 11,
+      "dst": 8,
+      "w": 0.7935940027236938
+    },
+    {
+      "src": 11,
+      "dst": 9,
+      "w": 0.7928527593612671
+    },
+    {
+      "src": 11,
+      "dst": 5,
+      "w": 0.7850160002708435
+    },
+    {
+      "src": 11,
+      "dst": 6,
+      "w": 0.7821772694587708
+    },
+    {
+      "src": 12,
+      "dst": 1,
+      "w": 0.7865281701087952
+    },
+    {
+      "src": 12,
+      "dst": 10,
+      "w": 0.7861596941947937
+    },
+    {
+      "src": 12,
+      "dst": 11,
+      "w": 0.781119167804718
+    },
+    {
+      "src": 12,
+      "dst": 5,
+      "w": 0.7803390622138977
+    },
+    {
+      "src": 12,
+      "dst": 9,
+      "w": 0.7743576765060425
+    },
+    {
+      "src": 13,
+      "dst": 10,
+      "w": 0.8063451051712036
+    },
+    {
+      "src": 13,
+      "dst": 1,
+      "w": 0.7899999022483826
+    },
+    {
+      "src": 13,
+      "dst": 5,
+      "w": 0.7819430828094482
+    },
+    {
+      "src": 13,
+      "dst": 12,
+      "w": 0.7804366946220398
+    },
+    {
+      "src": 13,
+      "dst": 11,
+      "w": 0.775756299495697
+    },
+    {
+      "src": 14,
+      "dst": 13,
+      "w": 0.7871732115745544
+    },
+    {
+      "src": 14,
+      "dst": 12,
+      "w": 0.7797302007675171
+    },
+    {
+      "src": 14,
+      "dst": 10,
+      "w": 0.7693763375282288
+    },
+    {
+      "src": 14,
+      "dst": 11,
+      "w": 0.759154200553894
+    },
+    {
+      "src": 14,
+      "dst": 1,
+      "w": 0.7503792643547058
+    },
+    {
+      "src": 15,
+      "dst": 1,
+      "w": 0.7802984118461609
+    },
+    {
+      "src": 15,
+      "dst": 9,
+      "w": 0.7732194662094116
+    },
+    {
+      "src": 15,
+      "dst": 13,
+      "w": 0.770574688911438
+    },
+    {
+      "src": 15,
+      "dst": 3,
+      "w": 0.7613569498062134
+    },
+    {
+      "src": 15,
+      "dst": 12,
+      "w": 0.7532494068145752
+    },
+    {
+      "src": 16,
+      "dst": 9,
+      "w": 0.8081935048103333
+    },
+    {
+      "src": 16,
+      "dst": 7,
+      "w": 0.7914998531341553
+    },
+    {
+      "src": 16,
+      "dst": 10,
+      "w": 0.7827513813972473
+    },
+    {
+      "src": 16,
+      "dst": 11,
+      "w": 0.7817831039428711
+    },
+    {
+      "src": 16,
+      "dst": 15,
+      "w": 0.7808110117912292
+    },
+    {
+      "src": 17,
+      "dst": 7,
+      "w": 0.7893263697624207
+    },
+    {
+      "src": 17,
+      "dst": 9,
+      "w": 0.7856929898262024
+    },
+    {
+      "src": 17,
+      "dst": 16,
+      "w": 0.7743282318115234
+    },
+    {
+      "src": 17,
+      "dst": 5,
+      "w": 0.7723455429077148
+    },
+    {
+      "src": 17,
+      "dst": 4,
+      "w": 0.7632684707641602
+    },
+    {
+      "src": 18,
+      "dst": 8,
+      "w": 0.816562831401825
+    },
+    {
+      "src": 18,
+      "dst": 10,
+      "w": 0.8089748024940491
+    },
+    {
+      "src": 18,
+      "dst": 9,
+      "w": 0.8063958883285522
+    },
+    {
+      "src": 18,
+      "dst": 7,
+      "w": 0.7929186224937439
+    },
+    {
+      "src": 18,
+      "dst": 16,
+      "w": 0.7813406586647034
+    },
+    {
+      "src": 19,
+      "dst": 1,
+      "w": 0.7803870439529419
+    },
+    {
+      "src": 19,
+      "dst": 15,
+      "w": 0.7770792841911316
+    },
+    {
+      "src": 19,
+      "dst": 13,
+      "w": 0.7723070979118347
+    },
+    {
+      "src": 19,
+      "dst": 12,
+      "w": 0.7706452012062073
+    },
+    {
+      "src": 19,
+      "dst": 10,
+      "w": 0.767216682434082
+    },
+    {
+      "src": 20,
+      "dst": 8,
+      "w": 0.7969250082969666
+    },
+    {
+      "src": 20,
+      "dst": 4,
+      "w": 0.7924462556838989
+    },
+    {
+      "src": 20,
+      "dst": 9,
+      "w": 0.7912442684173584
+    },
+    {
+      "src": 20,
+      "dst": 19,
+      "w": 0.7911527752876282
+    },
+    {
+      "src": 20,
+      "dst": 10,
+      "w": 0.7736850380897522
+    },
+    {
+      "src": 21,
+      "dst": 9,
+      "w": 0.7948828935623169
+    },
+    {
+      "src": 21,
+      "dst": 18,
+      "w": 0.7822169065475464
+    },
+    {
+      "src": 21,
+      "dst": 12,
+      "w": 0.7766360640525818
+    },
+    {
+      "src": 21,
+      "dst": 19,
+      "w": 0.7720618844032288
+    },
+    {
+      "src": 21,
+      "dst": 3,
+      "w": 0.7687284350395203
+    },
+    {
+      "src": 22,
+      "dst": 8,
+      "w": 0.8387778997421265
+    },
+    {
+      "src": 22,
+      "dst": 20,
+      "w": 0.8173256516456604
+    },
+    {
+      "src": 22,
+      "dst": 9,
+      "w": 0.8158618211746216
+    },
+    {
+      "src": 22,
+      "dst": 10,
+      "w": 0.80354905128479
+    },
+    {
+      "src": 22,
+      "dst": 18,
+      "w": 0.7974119186401367
+    },
+    {
+      "src": 23,
+      "dst": 9,
+      "w": 0.8249012231826782
+    },
+    {
+      "src": 23,
+      "dst": 1,
+      "w": 0.7961760759353638
+    },
+    {
+      "src": 23,
+      "dst": 4,
+      "w": 0.7929145693778992
+    },
+    {
+      "src": 23,
+      "dst": 5,
+      "w": 0.7897518873214722
+    },
+    {
+      "src": 23,
+      "dst": 7,
+      "w": 0.7868731021881104
+    },
+    {
+      "src": 24,
+      "dst": 13,
+      "w": 0.8022910356521606
+    },
+    {
+      "src": 24,
+      "dst": 10,
+      "w": 0.7755980491638184
+    },
+    {
+      "src": 24,
+      "dst": 19,
+      "w": 0.756005585193634
+    },
+    {
+      "src": 24,
+      "dst": 11,
+      "w": 0.7513636350631714
+    },
+    {
+      "src": 24,
+      "dst": 15,
+      "w": 0.7493029832839966
+    },
+    {
+      "src": 25,
+      "dst": 23,
+      "w": 0.8296183943748474
+    },
+    {
+      "src": 25,
+      "dst": 9,
+      "w": 0.8077417016029358
+    },
+    {
+      "src": 25,
+      "dst": 7,
+      "w": 0.8041717410087585
+    },
+    {
+      "src": 25,
+      "dst": 8,
+      "w": 0.7976610660552979
+    },
+    {
+      "src": 25,
+      "dst": 21,
+      "w": 0.7919990420341492
+    },
+    {
+      "src": 26,
+      "dst": 8,
+      "w": 0.8374476432800293
+    },
+    {
+      "src": 26,
+      "dst": 20,
+      "w": 0.8096633553504944
+    },
+    {
+      "src": 26,
+      "dst": 25,
+      "w": 0.8083152174949646
+    },
+    {
+      "src": 26,
+      "dst": 22,
+      "w": 0.8072257041931152
+    },
+    {
+      "src": 26,
+      "dst": 17,
+      "w": 0.7973113656044006
+    },
+    {
+      "src": 27,
+      "dst": 22,
+      "w": 0.8422635197639465
+    },
+    {
+      "src": 27,
+      "dst": 25,
+      "w": 0.8347929120063782
+    },
+    {
+      "src": 27,
+      "dst": 8,
+      "w": 0.8317191004753113
+    },
+    {
+      "src": 27,
+      "dst": 26,
+      "w": 0.8301496505737305
+    },
+    {
+      "src": 27,
+      "dst": 9,
+      "w": 0.8162826299667358
+    },
+    {
+      "src": 28,
+      "dst": 9,
+      "w": 0.7910727858543396
+    },
+    {
+      "src": 28,
+      "dst": 20,
+      "w": 0.7837468981742859
+    },
+    {
+      "src": 28,
+      "dst": 12,
+      "w": 0.7822360992431641
+    },
+    {
+      "src": 28,
+      "dst": 13,
+      "w": 0.780709445476532
+    },
+    {
+      "src": 28,
+      "dst": 5,
+      "w": 0.7778998613357544
+    },
+    {
+      "src": 29,
+      "dst": 20,
+      "w": 0.7929437756538391
+    },
+    {
+      "src": 29,
+      "dst": 27,
+      "w": 0.7854112386703491
+    },
+    {
+      "src": 29,
+      "dst": 12,
+      "w": 0.7830234169960022
+    },
+    {
+      "src": 29,
+      "dst": 10,
+      "w": 0.7759196162223816
+    },
+    {
+      "src": 29,
+      "dst": 16,
+      "w": 0.7736881971359253
+    },
+    {
+      "src": 30,
+      "dst": 9,
+      "w": 0.8194966912269592
+    },
+    {
+      "src": 30,
+      "dst": 23,
+      "w": 0.8023576140403748
+    },
+    {
+      "src": 30,
+      "dst": 22,
+      "w": 0.8014405965805054
+    },
+    {
+      "src": 30,
+      "dst": 10,
+      "w": 0.7887150645256042
+    },
+    {
+      "src": 30,
+      "dst": 19,
+      "w": 0.787389874458313
+    },
+    {
+      "src": 31,
+      "dst": 30,
+      "w": 0.8577807545661926
+    },
+    {
+      "src": 31,
+      "dst": 25,
+      "w": 0.8197526335716248
+    },
+    {
+      "src": 31,
+      "dst": 9,
+      "w": 0.8136130571365356
+    },
+    {
+      "src": 31,
+      "dst": 4,
+      "w": 0.8030358552932739
+    },
+    {
+      "src": 31,
+      "dst": 26,
+      "w": 0.8024376630783081
+    },
+    {
+      "src": 32,
+      "dst": 7,
+      "w": 0.4642232060432434
+    },
+    {
+      "src": 32,
+      "dst": 1,
+      "w": 0.44722458720207214
+    },
+    {
+      "src": 32,
+      "dst": 4,
+      "w": 0.4405890107154846
+    },
+    {
+      "src": 32,
+      "dst": 31,
+      "w": 0.43965351581573486
+    },
+    {
+      "src": 32,
+      "dst": 0,
+      "w": 0.43657436966896057
+    },
+    {
+      "src": 33,
+      "dst": 1,
+      "w": 0.6560196280479431
+    },
+    {
+      "src": 33,
+      "dst": 0,
+      "w": 0.6125544309616089
+    },
+    {
+      "src": 33,
+      "dst": 2,
+      "w": 0.590697705745697
+    },
+    {
+      "src": 33,
+      "dst": 5,
+      "w": 0.5210492014884949
+    },
+    {
+      "src": 33,
+      "dst": 3,
+      "w": 0.5131016373634338
+    },
+    {
+      "src": 34,
+      "dst": 32,
+      "w": 0.5394505858421326
+    },
+    {
+      "src": 34,
+      "dst": 3,
+      "w": 0.44291815161705017
+    },
+    {
+      "src": 34,
+      "dst": 23,
+      "w": 0.4315926432609558
+    },
+    {
+      "src": 34,
+      "dst": 7,
+      "w": 0.4281378388404846
+    },
+    {
+      "src": 34,
+      "dst": 25,
+      "w": 0.427206426858902
+    },
+    {
+      "src": 35,
+      "dst": 3,
+      "w": 0.6550139784812927
+    },
+    {
+      "src": 35,
+      "dst": 34,
+      "w": 0.4878947138786316
+    },
+    {
+      "src": 35,
+      "dst": 32,
+      "w": 0.46788543462753296
+    },
+    {
+      "src": 35,
+      "dst": 13,
+      "w": 0.4494025409221649
+    },
+    {
+      "src": 35,
+      "dst": 24,
+      "w": 0.4471382796764374
+    },
+    {
+      "src": 36,
+      "dst": 34,
+      "w": 0.42324915528297424
+    },
+    {
+      "src": 36,
+      "dst": 18,
+      "w": 0.3665984869003296
+    },
+    {
+      "src": 36,
+      "dst": 31,
+      "w": 0.3654727339744568
+    },
+    {
+      "src": 36,
+      "dst": 11,
+      "w": 0.36487439274787903
+    },
+    {
+      "src": 36,
+      "dst": 10,
+      "w": 0.3606127202510834
+    },
+    {
+      "src": 37,
+      "dst": 18,
+      "w": 0.5843697190284729
+    },
+    {
+      "src": 37,
+      "dst": 33,
+      "w": 0.47840961813926697
+    },
+    {
+      "src": 37,
+      "dst": 4,
+      "w": 0.42277324199676514
+    },
+    {
+      "src": 37,
+      "dst": 5,
+      "w": 0.4194655120372772
+    },
+    {
+      "src": 37,
+      "dst": 2,
+      "w": 0.41873791813850403
+    }
+  ]
+}
